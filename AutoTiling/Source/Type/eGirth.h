@@ -1,0 +1,14 @@
+#pragma once
+
+//—×Úæ‚ðŽw’è‚·‚é‚½‚ß‚Ì—ñ‹“Œ^
+enum class eGirth {
+	LEFT_TOP=0,
+	TOP,
+	RIGHT_TOP,
+	LEFT,
+	CENTER,
+	RIGHT,
+	LEFT_BOTTOM,
+	BOTTOM,
+	RIGHT_BOTTOM
+};

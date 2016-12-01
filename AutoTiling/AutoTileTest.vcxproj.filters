@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\Device\Input.cpp" />
+    <ClCompile Include="Source\Device\ImageLoader.cpp" />
+    <ClCompile Include="Source\MapData\CalcLandImageNo.cpp" />
+    <ClCompile Include="Source\MapData\MapManager.cpp" />
+    <ClCompile Include="Source\Type\GirthState.cpp" />
+    <ClCompile Include="Source\Type\MapTip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\AutoTileSample.png" />
+    <Image Include="Resource\AutoTileSample_no.png" />
+    <Image Include="Resource\AutoTileSample_no2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\MapData\MapManager.h" />
+    <ClInclude Include="Source\Device\Input.h" />
+    <ClInclude Include="Source\Type\Vector2.h" />
+    <ClInclude Include="Source\Device\ImageLoader.h" />
+    <ClInclude Include="Source\MapData\CalcLandImageNo.h" />
+    <ClInclude Include="Source\Type\MapTip.h" />
+    <ClInclude Include="Source\Type\GirthState.h" />
+    <ClInclude Include="Source\Type\eGirth.h" />
+    <ClInclude Include="Source\Type\ePlaceInMaptip.h" />
+    <ClInclude Include="Source\Type\eLandImageType.h" />
+  </ItemGroup>
+</Project>
