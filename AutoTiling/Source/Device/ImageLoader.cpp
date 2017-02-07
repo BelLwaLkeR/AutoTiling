@@ -34,6 +34,6 @@ int ImageLoader::GetMaptipImageHandle(int no) {
 }
 
 void ImageLoader::SetupMapTipHandle() {
-	LoadDivGraph("./Resource/AutoTileSample.png", 24, 12, 2, 16, 16, &maptipImageHandle[0]);
+	LoadDivGraph("./Resource/AutoTileSample_no.png", 24, 12, 2, 16, 16, &maptipImageHandle[0]);
 }
 
